@@ -18,9 +18,12 @@
     <sprite>sprites\sprSERP</sprite>
     <sprite>sprites\sprELEF</sprite>
     <sprite>sprites\sprPUERTA</sprite>
+    <sprite>sprites\sprPUERTAR</sprite>
+    <sprite>sprites\sprLLAVER</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\inicio</background>
+    <background>background\final</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
@@ -31,10 +34,13 @@
     <object>objects\objMETA</object>
     <object>objects\objSERP</object>
     <object>objects\objELEF</object>
-    <object>objects\objENEMIGOP</object>
     <object>objects\objPUERTA</object>
+    <object>objects\objENEMIGOP</object>
     <object>objects\objINICIO</object>
     <object>objects\objMUSICAF</object>
+    <object>objects\objGameOver</object>
+    <object>objects\objPUERTAR</object>
+    <object>objects\objLLAVER</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Start</room>
@@ -43,6 +49,7 @@
     <room>rooms\Level_3</room>
     <room>rooms\Level_4</room>
     <room>rooms\Level_5</room>
+    <room>rooms\Game_Over</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
