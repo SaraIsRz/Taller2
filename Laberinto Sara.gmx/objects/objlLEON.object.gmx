@@ -48,7 +48,22 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (!place_empty(x,y)){hspeed = -hspeed}
+            <string>if (place_meeting(x,y,objMURO))(hspeed= -hspeed; exit;)
+speed=3;
+if (x == objMONO,x)
+{
+if (drection == 90 &amp;&amp; y &gt; objMONO,y=
+{
+speed = 5;
+}
+else
+{
+if (direction == 270 &amp;&amp; y &lt; objMONO,y)
+{
+speed = 5;
+}
+}
+}
 </string>
           </argument>
         </arguments>

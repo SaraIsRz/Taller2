@@ -174,7 +174,6 @@
     <instance objName="objMURO" x="256" y="96" name="inst_AD5AA6FC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objMURO" x="288" y="224" name="inst_5B002EC5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objMURO" x="320" y="224" name="inst_4F004ED1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objMETA" x="320" y="192" name="inst_578F6CC1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objMURO" x="416" y="64" name="inst_E2C59E6A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objMURO" x="576" y="32" name="inst_F3B14ED9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objMURO" x="544" y="32" name="inst_BA3B01F8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -228,6 +227,7 @@
     <instance objName="objELEF" x="512" y="416" name="inst_71C7A093" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPUERTAR" x="256" y="192" name="inst_86310F39" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objLLAVER" x="576" y="320" name="inst_63EB572A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objmetafinal" x="320" y="192" name="inst_35E93FEF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

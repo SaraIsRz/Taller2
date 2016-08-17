@@ -27,7 +27,8 @@
             <kind>1</kind>
             <string>velocidad = 4;
 
-
+lives = 3;
+score = 0; 
 </string>
           </argument>
         </arguments>
@@ -158,6 +159,30 @@ if (!place_meeting(x,y+velocidad,objMURO)) &amp;&amp; (!place_meeting(x,y+veloci
         <isnot>0</isnot>
       </action>
     </event>
+    <event eventtype="4" ename="objmetafinal">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>room_goto(The_End);
+    
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="4" ename="objLLAVER">
       <action>
         <libid>1</libid>
@@ -193,9 +218,18 @@ if (!place_meeting(x,y+velocidad,objMURO)) &amp;&amp; (!place_meeting(x,y+veloci
             <kind>1</kind>
             <string>/// fail y sonido
 
-instance_destroy();
 audio_play_sound(sndFAIL,10,false);
+instance_destroy();
+lives = -1;
+{
+room_restart();
+}
+if (lives = 0)
+{
 room_goto(Game_Over);
+}
+
+
 
 </string>
           </argument>

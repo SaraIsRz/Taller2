@@ -20,36 +20,42 @@
     <sprite>sprites\sprPUERTA</sprite>
     <sprite>sprites\sprPUERTAR</sprite>
     <sprite>sprites\sprLLAVER</sprite>
+    <sprite>sprites\sprmetafinal</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\inicio</background>
     <background>background\final</background>
+    <background>background\theend</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\objMONO</object>
     <object>objects\objBANANA</object>
-    <object>objects\objlLEON</object>
     <object>objects\objMURO</object>
     <object>objects\objMETA</object>
-    <object>objects\objSERP</object>
-    <object>objects\objELEF</object>
+    <object>objects\objmetafinal</object>
     <object>objects\objPUERTA</object>
+    <object>objects\objPUERTAR</object>
+    <object>objects\objLLAVER</object>
     <object>objects\objENEMIGOP</object>
     <object>objects\objINICIO</object>
     <object>objects\objMUSICAF</object>
     <object>objects\objGameOver</object>
-    <object>objects\objPUERTAR</object>
-    <object>objects\objLLAVER</object>
+    <objects name="enemigos">
+      <object>objects\objlLEON</object>
+      <object>objects\objSERP</object>
+      <object>objects\objELEF</object>
+    </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\Level_2</room>
     <room>rooms\Start</room>
     <room>rooms\Level_1</room>
-    <room>rooms\Level_2</room>
     <room>rooms\Level_3</room>
     <room>rooms\Level_4</room>
     <room>rooms\Level_5</room>
     <room>rooms\Game_Over</room>
+    <room>rooms\The_End</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
